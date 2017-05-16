@@ -4,7 +4,7 @@ body {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 30px;
 }
 
 ul {
@@ -71,7 +71,7 @@ a {
 }
 
 .nav li {
-  margin: 0 15px;
+  margin-right: 15px;
 }
 
 .home-container {
