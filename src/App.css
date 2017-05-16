@@ -1,0 +1,58 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe Ui, Roboto, Oxygen-Sans,Ubuntu,cantarell, Helvetica Neue, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+}
+
+.languages li {
+  margin: 10px;
+  font-weight: bold;
+  cursor: point;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.space-list-items {
+  margin-bottom: 7px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%
+}
