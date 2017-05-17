@@ -1,9 +1,9 @@
 # Github Battle
-Training Project of React Fundamentals @reactjstraining with @tylermcginnis33
+Training Project of React Fundamentals [@reacttraining](https://twitter.com/reacttraining) with [@tylermcginnis33](https://twitter.com/tylermcginnis33)
+[Online Demo](https://rt-github-battle-2ca09.firebaseapp.com/)
+
 
 ![github-battle](https://cloud.githubusercontent.com/assets/7906289/26139523/d3c55c82-3a96-11e7-8253-a0ce3cebf8c4.gif)
-
-[Online Demo](https://rt-github-battle-2ca09.firebaseapp.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
