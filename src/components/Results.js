@@ -4,6 +4,7 @@ import queryString from 'query-string';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import PlayerPreview from './PlayerPreview';
+import Loading from './Loading';
 
 
 function Profile({ info }) {
@@ -90,7 +91,7 @@ class Results extends Component {
     } = this.state;
 
     if (loading) {
-      return <p>Loading...</p>
+      return <Loading />
     }
 
     if (error) {
