@@ -1,5 +1,6 @@
 # Github Battle
 Training Project of React Fundamentals [@reacttraining](https://twitter.com/reacttraining) with [@tylermcginnis33](https://twitter.com/tylermcginnis33)
+
 [Online Demo](https://rt-github-battle-2ca09.firebaseapp.com/)
 
 
