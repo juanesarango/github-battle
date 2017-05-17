@@ -13,7 +13,7 @@ class Loading extends Component {
     super(props);
     this.state = {
       text: props.text
-    }
+    };
   }
 
   componentDidMount() {
@@ -26,10 +26,10 @@ class Loading extends Component {
           };
         });
       } else {
-        this.setState((prevState) => {
+        this.setState(prevState => {
           return {
             text: prevState.text + '.'
-          }
+          };
         });
       }
     }, this.props.speed);
@@ -44,18 +44,18 @@ class Loading extends Component {
       <p style={styles.content}>
         {this.state.text}
       </p>
-    )
+    );
   }
 }
 
 Loading.propTypes = {
   text: PropTypes.string.isRequired,
   speed: PropTypes.number.isRequired
-}
+};
 
 Loading.defaultProps = {
   text: 'Loading',
   speed: 300
-}
+};
 
 export default Loading;

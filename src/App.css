@@ -55,7 +55,7 @@ a {
 .languages li {
   margin: 10px;
   font-weight: bold;
-  cursor: point;
+  cursor: pointer;
 }
 
 .popular-list {
@@ -91,6 +91,7 @@ a {
 
 .nav {
   display: flex;
+  cursor: pointer;
 }
 
 .active {
